@@ -38,7 +38,7 @@ class _MyHomePageState extends State<MyHomePage> {
           TabItem(icon: Icons.add),
           TabItem(icon: Icons.alarm)
         ],
-        initialActiveIndex: 0,
+        activeColor: Colors.white,
         elevation: 40,
         onTap: (index) {
           print(index);
